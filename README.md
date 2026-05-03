@@ -1,59 +1,111 @@
-# D605 Optimization Project
+# 📦 Logistics Optimization Project (Linear Programming)
 
 ## 📌 Overview
-This project demonstrates the application of optimization techniques to logistics and supply chain problems using linear programming and Python.
+This project applies optimization techniques to a logistics and supply chain scenario using **linear programming and Python**.
 
-The project progresses from business problem identification to mathematical modeling and implementation using optimization algorithms.
+The objective is to determine the most cost-efficient way to transport goods across a network of hubs, cities, and delivery centers while satisfying operational constraints such as capacity limits and demand requirements.
+
+---
+
+## 🎯 Business Problem
+Logistics networks often face inefficiencies that increase operational costs.
+
+This project addresses the problem of:
+- Determining optimal shipment quantities
+- Selecting efficient routing paths
+- Minimizing total transportation cost
+
+**Goal:**  
+Minimize total shipping cost while ensuring:
+- All customer demand is fulfilled  
+- Hub and city capacity constraints are respected  
+- Flow is conserved across the network  
+
+---
 
 ## 📂 Project Structure
 optimization-project/
 │
 ├── docs/
-│   ├── Business_optimization.docx
-│   ├── Mathematical_modeling.docx
-│   └── Implementation.docx
+│ ├── Business_optimization.docx
+│ ├── Mathematical_modeling.docx
+│ └── Implementation.docx
 │
 ├── notebooks/
-│   └── Optimization.ipynb
+│ └── Optimization.ipynb
 │
 ├── README.md
 └── .gitignore
 
-## 📊 Project Breakdown
 
-### Task 1: Business Optimization
-- Identified logistics optimization problem
-- Proposed route optimization strategy
-- Defined decision variables and constraints
+---
 
-### Task 2: Mathematical Modeling
-- Built linear programming model
-- Defined objective function (minimize shipping cost)
-- Established constraints (capacity, demand, flow conservation)
-- Selected Simplex method
+## 📊 Solution Approach
 
-### Task 3: Implementation (Python)
-- Implemented optimization model in Jupyter Notebook
-- Generated optimal shipping routes and quantities
-- Validated constraints programmatically
-- Analyzed output and performance
+### Business Optimization
+- Identified logistics inefficiencies and cost drivers  
+- Proposed route optimization strategy  
+- Defined decision variables and constraints  
+
+### Mathematical Modeling
+- Formulated the problem as a **linear programming model**  
+- Defined objective function to minimize total shipping cost  
+- Established constraints:
+  - Capacity limits  
+  - Demand requirements  
+  - Flow conservation  
+
+### Implementation (Python)
+- Implemented optimization model in Jupyter Notebook  
+- Applied the **Simplex method** to solve the LP problem  
+- Generated optimized shipping routes and quantities  
+- Programmatically validated all constraints  
+
+---
+
+## 📈 Results & Insights
+- Produced optimized shipment allocations across hubs, cities, and centers  
+- Ensured all constraints were satisfied:
+  - Hub capacity  
+  - City capacity  
+  - Demand fulfillment  
+  - Flow balance  
+- Demonstrated how optimization can improve logistics efficiency and reduce unnecessary routing  
+
+---
+
+## 📊 Visual Analysis
+The notebook includes visualizations to support the optimization results:
+- Cost comparison (baseline vs optimized)  
+- Shipment distribution by source  
+- Top shipping routes by volume  
+
+---
 
 ## 🛠 Tools & Technologies
-- Python
-- Jupyter Notebook
-- Linear Programming (Simplex Method)
+- Python  
+- Jupyter Notebook  
+- Linear Programming (Simplex Method)  
+- Pandas / NumPy (data handling)  
+- Matplotlib (visualization)  
 
-## 📈 Key Results
-- Generated optimized shipping directives across multiple hubs and centers
-- Ensured all constraints (capacity, demand, flow) were satisfied
-- Demonstrated real-world supply chain optimization modeling
+---
 
 ## 🚀 How to Run
-1. Open the notebook:
-- notebooks/Optimization.ipynb
-2. Run all cells to reproduce results
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/raghem/optimization-project.git
+2. Open the notebook:
+ - notebooks/Optimization.ipynb
+3. Run all cells to reproduce the optimization results
 
-## 👤 Author
-**Raghe Mahamud**  
-- GitHub: https://github.com/raghem  
-- LinkedIn: https://www.linkedin.com/in/raghemahamud/
+## Future Improvements
+- Integrate real-world logistics datasets
+- Scale the model for larger transportation network
+- Add interactive dashboards (PowerBI/Tableau)
+- Deploy as an API for real-time optimization
+
+## Author
+'Raghe Mahamud'
+- Github: https://www.github.com/raghem
+- LinkedIn: https://www.linkedin.com/in/raghemahamud
