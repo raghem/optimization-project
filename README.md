@@ -74,6 +74,11 @@ optimization-project/
 
 ---
 
+## 📈 Key Result
+- Total optimized shipping cost: $886,800,462.50
+
+---
+
 ## 📊 Visual Analysis
 The notebook includes visualizations to support the optimization results:
 - Cost comparison (baseline vs optimized)  
