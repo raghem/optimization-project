@@ -87,8 +87,12 @@ The notebook includes visualizations to support the optimization results:
 ### Total Shipment by Hub
 ![Hub Shipments](images/hub_shipments.png)
 
+Cincinnati/NKY handles the majority of outbound shipments, indicating it is the primary distribution hub in the optimized network.
+
 ### Top Shipping Routes
 ![Top Routes](images/top_routes.png)
+
+The optimization prioritizes high-volume routes from Leipzig to major demand centers such as Paris and London, minimizing overall transportation cost.
 
 ---
 
