@@ -82,6 +82,16 @@ The notebook includes visualizations to support the optimization results:
 
 ---
 
+## 📊 Visual Results
+
+### Total Shipment by Hub
+![Hub Shipments](images/hub_shipments.png)
+
+### Top Shipping Routes
+![Top Routes](images/top_routes.png)
+
+---
+
 ## 🛠 Tools & Technologies
 - Python  
 - Jupyter Notebook  
